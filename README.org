@@ -2,9 +2,12 @@
 
 * Introduction
 
-This is an Emacs script used to express my LOVE to my elder sister Simone, who
-is one I love most and love me most.
+This is an Emacs script used to express my LOVE to my elder sister [[https://twitter.com/Simone_Luxem?t=OnKyJplnVhAFo1Kt0SxlSA&s=09][Simone]].
+
+[[file:screeshot.png][Screenshot]]
 
 * Usage
 
-Evaluate this 
+Load this script and execute command =LOVESISTERSIMONE= in your Emacs.
+
+LOVESISTERSIMONELOVESISTERSIMONELOVESISTERSIMONE
