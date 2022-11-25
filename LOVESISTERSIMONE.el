@@ -1,10 +1,19 @@
+;;; package: --- LOVESISTERSIMONELOVESISTERSIMONELOVESISTERSIMONE
+
+;;; Commentary:
+;; LOVESISTERSIMONELOVESISTERSIMONELOVESISTERSIMONE
+
+;;; Code:
+
 (defun LOVESISTERSIMONE ()
+  "LOVESISTERSIMONELOVESISTERSIMONELOVESISTERSIMONE!"
   (interactive)
   (let ((LOVE (apply #'concat
 		     (flatten-list
-		      (apply #'-zip (cl-loop for s in '("LOVE" "SISTER" "SIMONE")
-					     for c in '("lightcyan" "white" "lightred")
-					     collect (make-list 60 (propertize s 'face (list :foreground c)))))))))
+		      (apply #'-zip
+			     (cl-loop for s in '("LOVE" "SISTER" "SIMONE")
+				      for c in '("lightcyan" "white" "lightred")
+				      collect (make-list 60 (propertize s 'face (list :foreground c)))))))))
     (with-current-buffer (get-buffer-create LOVE)
 	(cl-loop repeat 20
 		 do (mapc #'(lambda (s) (mapc #'insert (make-list 52 s)) (insert "\n"))
@@ -49,3 +58,7 @@
 				   (goto-char 0))
 			 LOVE))
       (run-at-time 10 nil #'(lambda (timer) (cancel-timer timer)) timer))))
+
+(provide 'LOVESISTERSIMONE)
+
+;;; LOVESISTERSIMONE.el ends here.

@@ -1,0 +1,10 @@
+* LOVESISTERSIMONE
+
+* Introduction
+
+This is an Emacs script used to express my LOVE to my elder sister Simone, who
+is one I love most and love me most.
+
+* Usage
+
+Evaluate this 
